@@ -1,7 +1,7 @@
 ---
-layout:post
-title:洛谷 P4785 [BalticOI 2016] 交换 (Day2)
-date:2026-05-24
+layout: post
+title: 洛谷 P4785 [BalticOI 2016] 交换 (Day2)
+date: 2026-05-24
 ---
 
 我的分析与解答：
@@ -27,6 +27,7 @@ date:2026-05-24
 对于第 3 种情况就模仿现在的情况进行递归两个儿子就可以了。
 
 我的代码：
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -84,3 +85,4 @@ signed main() {
 	for(int i = 1;i <= n;i++) cout << a[i] << " ";	
 	return 0; 
 } 
+```
